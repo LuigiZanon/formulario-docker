@@ -10,7 +10,7 @@ session_start();
     </head>
     <body> 
         <div>
-            <h1 id="titulo">Cadastrar Usuário</h1>
+            <h1 id="titulo">Cadastrar Usuários</h1>
             <p id="subtitulo"> Insira suas informações</p>
         </div>
 
@@ -23,20 +23,21 @@ session_start();
 
         <form method="POST" action="processa.php">
 
-            <fieldset class="nome">
-                <div>
-                    <label for="nome"><strong>Nome:</strong><label>
-                    <input type="text" name="nome" placeholder="Digite o nome completo" required><br><br>
-                </div>
-            </fieldset>
+            <fieldset class="info">
+                <fieldset class="nome">
+                    <div>
+                        <label for="nome"><strong>Nome:</strong><label>
+                        <input type="text" name="nome" placeholder="Digite o nome completo" required><br><br>
+                    </div>
+                </fieldset>
 
-            <fieldset class="email">
-                <div>
-                    <label for="email"><strong>Email:<strong><label>
-                    <input type="email" name="email" placeholder="Digite o seu email" required><br><br>
-                </div>
+                <fieldset class="email">
+                    <div>
+                        <label for="email"><strong>Email:<strong><label>
+                        <input type="email" name="email" placeholder="Digite o seu email" required><br><br>
+                    </div>
+                </fieldset>
             </fieldset>
-
             <button class="botao" type="submit">Concluído</button>
         </form>
     </body>
