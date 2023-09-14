@@ -37,6 +37,13 @@ session_start();
                         <input type="email" name="email" placeholder="Digite o seu email" required><br><br>
                     </div>
                 </fieldset>
+
+                <fieldset class="senha">
+                    <div>
+                        <label for="senha"><strong>Senha:</strong><label>
+                        <input type="password" name="senha" placeholder="Digite sua senha" required><br><br>
+                    </div>
+                </fieldset>
             </fieldset>
             <button class="botao" type="submit">Concluído</button>
         </form>
