@@ -47,6 +47,19 @@ input, button{
     display: block;
 }
 
+.senha{
+    margin-bottom: 0.2em;
+    color: crimson;
+    display: block;
+}
+
+.senha input[type="password"]{
+    padding: 0.2em;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px rgb(68, 67, 67);
+    display: block;
+}
+
 fieldset.nome .email{
     float: left;
     margin-right: 1em;

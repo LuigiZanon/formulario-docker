@@ -1,8 +1,8 @@
 <?php
 $servidor =  "db-1";
 $usuario = "root";
-$senha = "myrootpass";
+$senha1 = "myrootpass";
 $dbname = "mydatabase";
 
 //criar a conexao
-$conn = mysqli_connect($servidor,$usuario,$senha,$dbname);
+$conn = mysqli_connect($servidor,$usuario,$senha1,$dbname);
